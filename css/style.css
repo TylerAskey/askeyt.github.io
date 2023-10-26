@@ -70,7 +70,7 @@ nav {
       width:14rem;
       border:.0625rem solid #333;
       background-color:#8FB0D0;
-      position:fixed;
+      position:left;
 }
 
 nav img {
@@ -236,3 +236,5 @@ footer a:hover {
     font-size:.75rem;
     float:left;
 }
+
+
