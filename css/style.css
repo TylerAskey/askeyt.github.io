@@ -6,7 +6,7 @@ html {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 body {
@@ -69,7 +69,8 @@ nav {
       flex-direction: column;
       width:14rem;
       border:.0625rem solid #333;
-      background-color:#8FB0D0;
+      background-color:#e32b7ee4;
+      /* changed*/
       position:left;
 }
 
