@@ -1,0 +1,29 @@
+
+html{
+    background-color: gray;
+   }
+
+   .heading-color{
+    color: blueviolet;
+    font-size: 26px;
+   }
+   
+   #p1 {
+        color:rgb(68, 5, 68);
+        font-size: 18px;
+        
+    }   
+    
+    #p2{
+        color: royalblue;
+        font-size: 18px;
+
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    footer p span {
+        color: aquamarine;
+    }
