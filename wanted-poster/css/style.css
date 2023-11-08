@@ -89,7 +89,7 @@ h3{
     padding-bottom: .25;
 }
 
-h4 span {
+h4 {
     font-weight: normal;
     text-transform: uppercase;
     font-size:1.5rem;
@@ -99,6 +99,13 @@ h4 span {
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
+}
+span{
+    font-size: 1.5rem;
+    color: darkred;
+    letter-spacing: 0.25rem;
+    text-align: center;
+    margin: 0;
 }
 
 h5{
