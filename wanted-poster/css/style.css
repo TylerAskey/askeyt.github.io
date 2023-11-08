@@ -1,6 +1,6 @@
 /* Imported Typeface Files */
 
-@font-face {
+@font-face{
     font-family:Lato;
     src: url(../fonts/lato-regular.ttf);
     font-style:normal;
@@ -82,7 +82,7 @@ h3{
     text-transform: uppercase;
     font-size:2rem;
     margin: 0;
-    letter-spacing: .25rem;
+    letter-spacing: 0.25rem;
     color:rgb(0, 0, 0);
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
@@ -94,7 +94,7 @@ h4 span {
     text-transform: uppercase;
     font-size:1.5rem;
     margin: 0;
-    letter-spacing: .25rem;
+    letter-spacing: 0.25rem;
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
@@ -115,6 +115,7 @@ h5{
 
 section{
     margin-top: .5rem auto;
+    width: 100%;
 }
 
 p{
@@ -129,7 +130,7 @@ p{
 
 img{
     width: 100%;
-    margin: 0 auto;
+    margin: 0,0, auto;
     max-width: 800/16rem;
 }
 
