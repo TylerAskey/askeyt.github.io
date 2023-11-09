@@ -125,10 +125,10 @@ section{
 }
 
 p{
-    margin: 1rem auto;
+    margin-top: 1rem auto ;
     padding: 0,1rem;
     width: 90%;
-    text-align: center;
+    text-align: left;
 
 }
 
