@@ -159,3 +159,9 @@ footer{
     color: #333;
     padding: 1rem;
 }
+
+#strong_BTMP{
+    font-size: 1rem;
+    text-align: left;
+    position: bottom;
+}
