@@ -1,5 +1,10 @@
-image{
-    border-color: rgba(11, 74, 36, 0.658);
-
+html{
+    font-size: 16px;
+    background-color: #fff;
+    
 }
 
+img{
+    width: 100%;
+    margin:0 auto;
+}
