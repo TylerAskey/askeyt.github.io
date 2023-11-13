@@ -79,20 +79,50 @@ header, footer {
 
 /* Imported Typfaces */
 
+@font-face {
+    font-family: montserrat;
+    src: url(/school-site/fonts/montserrat-regular.ttf);
+}
 
+@font-face {
 
+}
 
 
 /* Typography Styles */
 
+html{
 
+}
 
+h1{
 
+}
 
+h2{
 
+}
+
+h2 + p {
+
+}
+
+p{
+
+}
+
+li{
+
+}
+
+figcaption{
+
+}
 /* Link Styling */
 
+a{
 
+}
 
 
 
@@ -106,14 +136,18 @@ header, footer {
 
 /* Navigation Menu */
 
+nav{
 
+}
 
 
 
 
 /* Footer Styles */
 
+footer{
 
+}
 
 
 
