@@ -80,12 +80,18 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-    font-family: montserrat;
-    src: url(/school-site/fonts/montserrat-regular.ttf);
+    font-family: sans-serif;
+    src: url(/school-site/fonts/montserrat-regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-
+    font-family: serif;
+    src: url(/school-site/fonts/josefinslab-regular.ttf) format("truetype");
+    letter-spacing: 2/16rem;
+    font-weight: normal;
+    font-size: normal;
 }
 
 
@@ -96,28 +102,37 @@ html{
 }
 
 h1{
-
+    font-size: 60/16rem;
+    margin: 18/16rem;
+    text-align: center;
 }
 
 h2{
-
+font-size: 24/16rem;
 }
 
 h2 + p {
-
+    text-indent: 24/16rem;
 }
 
 p{
+    font-size: 12/16rem;
+    letter-spacing: .5/16rem;
+    word-spacing: 2/16rem;
 
 }
 
 li{
+    color: #33658A;
 
 }
 
 figcaption{
+    font-size: 12/16rem;
+    margin-bottom: 32/16rem;
 
 }
+
 /* Link Styling */
 
 a{
@@ -130,12 +145,24 @@ a:visited{
 }
 
 a:focus,/
+a:hover{
 
+}
 
 
 /* List Styling */
 
+ul{
 
+}
+
+ol{
+
+}
+
+. .long-list a:hover {
+
+}
 
 
 
@@ -146,8 +173,19 @@ nav{
 
 }
 
+nav a {
 
+}
 
+nav a:focus,/
+
+nav a:hover{
+
+}
+
+nav a:active{
+
+}
 
 /* Footer Styles */
 
