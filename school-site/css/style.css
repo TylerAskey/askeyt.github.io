@@ -121,15 +121,10 @@ h2 + p {
     text-indent: 24/16rem;
 }
 
-p{
+p,li{
     font-size: 12/16rem;
     letter-spacing: .5/16rem;
     word-spacing: 2/16rem;
-
-}
-
-li{
-    color: #33658A;
 
 }
 
@@ -142,21 +137,20 @@ figcaption{
 /* Link Styling */
 
 a{
+    text-decoration: none;
 
 }
 
-a:link{
-    color: #33658A;
-}
-
+a:link,
 a:visited{
-color: #33658A;
+    color: #33658A;
+
 }
 
-a:focus,/
 
+a:focus,
 a:hover{
-
+    text-decoration: none;
 }
 
 
@@ -172,9 +166,6 @@ ol{
     list-style-type: lower-alpha;
 }
 
-. .long-list a:hover {
-
-}
 
 
 
@@ -183,9 +174,7 @@ ol{
 
 nav{
     padding-left: 0;
-    padding-top: 4/16rem;
-    display: inline-block;
-    width: 100%;
+    margin-top: .25rem;
     line-height: 3;
     text-align: center;
     font-size: 18/16rem;
@@ -195,7 +184,7 @@ nav{
 }
 
 nav a {
-
+    width: 100%
 }
 
 nav a:focus{
@@ -204,6 +193,7 @@ nav a:focus{
 
 nav a:hover{
     background-color: #33658A;
+    color: #fff;
 }
 
 nav a:active{
