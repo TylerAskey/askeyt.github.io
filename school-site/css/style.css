@@ -175,16 +175,18 @@ ol{
 nav{
     padding-left: 0;
     margin-top: .25rem;
-    line-height: 3;
-    text-align: center;
-    font-size: 18/16rem;
-    margin-bottom: 24/16rem;
-    border: solid 1/16rem;
     
 }
 
 nav a {
-    width: 100%
+    width: 100%;
+    line-height: 3;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18/16rem;
+    border: solid 1/16rem, #33658A;
+    margin-bottom: 24/16rem;
+    text-align: center;
 }
 
 nav a:focus{
