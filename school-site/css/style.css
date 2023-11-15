@@ -80,15 +80,15 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-    font-family: sans-serif;
-    src: url(/school-site/fonts/montserrat-regular.ttf) format("truetype");
+    font-family: JoseFinSlab;
+    src: url(/school-site/fonts/montserrat-regular.ttf) format("TrueType");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: serif;
-    src: url(/school-site/fonts/josefinslab-regular.ttf) format("truetype");
+    font-family: Montserrat;
+    src: url(/school-site/fonts/josefinslab-regular.ttf) format("TrueType");
     letter-spacing: 2/16rem;
     font-weight: normal;
     font-size: normal;
@@ -98,10 +98,12 @@ header, footer {
 /* Typography Styles */
 
 html{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
 
 }
 
 h1{
+    font-family: JoseFinSlab, 'Times New Roman', Times, serif;
     font-size: 60/16rem;
     margin: 18/16rem;
     text-align: center;
@@ -109,6 +111,7 @@ h1{
 
 h2{
 font-size: 24/16rem;
+font-family: JoseFinSlab, 'Times New Roman', Times, serif;
 }
 
 h2 + p {
@@ -139,12 +142,16 @@ a{
 
 }
 
-a:link,/
-a:visited{
+a:link{
+    color: #33658A;
+}
 
+a:visited{
+color: #33658A;
 }
 
 a:focus,/
+
 a:hover{
 
 }
@@ -172,27 +179,39 @@ ol{
 /* Navigation Menu */
 
 nav{
-
+    padding-left: 0;
+    padding-top: 4/16rem;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 18/16rem;
+    margin-bottom: 24/16rem;
+    border: solid 1/16rem;
+    
 }
 
 nav a {
 
 }
 
-nav a:focus,/
+nav a:focus{
+    color: #fff;
+}
 
 nav a:hover{
-
+    background-color: #33658A;
 }
 
 nav a:active{
-
+    color: #fff;
+    background-color: #000;
 }
 
 /* Footer Styles */
 
 footer{
-
+    text-align: center;
 }
 
 
