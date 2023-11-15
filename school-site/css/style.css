@@ -102,16 +102,19 @@ html{
 
 }
 
+h1,h2{
+    letter-spacing: 2/16rem;
+    font-family: JoseFinSlab, 'Times New Roman', Times, serif ;
+}
+
 h1{
-    font-family: JoseFinSlab, 'Times New Roman', Times, serif;
     font-size: 60/16rem;
     margin: 18/16rem;
     text-align: center;
 }
 
 h2{
-font-size: 24/16rem;
-font-family: JoseFinSlab, 'Times New Roman', Times, serif;
+    font-size: 24/16rem;
 }
 
 h2 + p {
