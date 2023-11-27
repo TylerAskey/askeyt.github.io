@@ -55,5 +55,10 @@ html{
 
 nav{
     place-self: top;
-    
+
+}
+
+@font-face {
+    font-family: ;
+    src: url(), format(TrueType);
 }
