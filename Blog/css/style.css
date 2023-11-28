@@ -59,10 +59,18 @@ nav{
 }
 
 @font-face {
-    font-family:Ultra-regular;
+    font-family:Ultra-regular sans-serif;
     src: url(/Blog/fonts/serif/ultra-regular.ttf), format(TrueType);
     font-weight: normal;
     font-size: normal;
 }
 
+p{
+    word-spacing: normal;
+    font-size: 1rem;
+}
 
+h1{
+    font-size: 72/16rem;
+    font-family: Ultra-regular sans-serif;
+}
