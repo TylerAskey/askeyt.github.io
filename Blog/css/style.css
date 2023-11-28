@@ -55,7 +55,7 @@ html{
 
 nav{
     place-self: top;
-    word-spacing: 1rem;
+    word-spacing: 24/16rem;
 }
 
 @font-face {
