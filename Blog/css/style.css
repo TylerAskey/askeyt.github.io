@@ -58,6 +58,9 @@ html{
 nav{
     place-self: top;
     word-spacing: 24/16rem;
+    float: top;
+    border: blue thin;
+    display: inline-block;
 }
 
 @font-face {
@@ -106,6 +109,10 @@ ul{
     list-style-type: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 /*SECTION*/
 
 img{
@@ -115,7 +122,7 @@ img{
 
 }
 
-main-section{
+.main-section{
     display: flex;
 }
 
@@ -124,16 +131,74 @@ article{
 
 }
 
-article-image{
+.article-image{
     float: right;
     margin: 0, 1rem, 0 0;
 }
 
-article-image + p{
+.article-image + p{
     margin-top: 0;
 }
 
-aside{
-    width: 25%;
+.subsection{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem,1fr));
+    grid-column-gap: 1%;
+}
 
+.subsection figure{
+    padding: 0;
+    margin: 0;
+    background-color: #eed;
+}
+
+.subsection figcaption{
+    font-size: .75rem;
+    padding: .75rem;
+
+}
+
+.subsection img{
+    padding-bottom: 1%;
+    min-width: 5rem;
+
+}
+
+/*SIDE BAR*/
+.aside{
+    width: 19%;
+    clear: both;
+    margin-left: 3%;
+    padding-left: 3%;
+    border-left: .0625rem  solid #333;
+}
+
+.aside p{
+    font-size: .75rem;
+    padding-bottom: 2rem;
+    border-bottom: .0625rem solid #333;
+}
+
+
+
+/*FOOTER*/
+
+footer{
+    margin: 6rem auto .5rem auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+    grid-column-gap: 1%;
+
+}
+
+footer :nth-child(2) {
+    text-align:right ;
+}
+
+footer a{
+    color: #6f7d6f;
 }
