@@ -58,8 +58,10 @@ html{
 nav{
     place-self: top;
     word-spacing: 24/16rem;
-    border: blue thick;
+    border-top: #333;
     display: inline-block;
+    border: .0125rem solid;
+    font-size: 1.5rem;
     
 }
 
@@ -164,7 +166,7 @@ article{
 .subsection img{
     padding-bottom: 1%;
     min-width: 5rem;
-
+    width: 75%;
 }
 
 /*SIDE BAR*/
