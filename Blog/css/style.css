@@ -58,7 +58,6 @@ html{
 nav{
     place-self: top;
     word-spacing: 24/16rem;
-    float: top;
     border: blue thin;
     display: inline-block;
 }
