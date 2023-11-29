@@ -167,15 +167,16 @@ article{
 }
 
 /*SIDE BAR*/
-.aside{
-    width: 19%;
+aside{
+    width: 25%;
     clear: both;
     margin-left: 3%;
     padding-left: 3%;
     border-left: .0625rem  solid #333;
+    position: right;
 }
 
-.aside p{
+aside p{
     font-size: .75rem;
     padding-bottom: 2rem;
     border-bottom: .0625rem solid #333;
