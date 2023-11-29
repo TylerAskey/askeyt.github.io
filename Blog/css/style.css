@@ -97,17 +97,43 @@ body{
 }
 
 main{
-    padding: 0 auto;
-    
+    margin: 0 auto;
+    padding-bottom: .25rem;
+    width: 90%;
 }
 
 ul{
     list-style-type: none;
 }
 
+/*SECTION*/
+
 img{
     width: 100%;
     display: block;
     max-width: 25rem;
+
+}
+
+main-section{
+    display: flex;
+}
+
+article{
+    width: 75%;
+
+}
+
+article-image{
+    float: right;
+    margin: 0, 1rem, 0 0;
+}
+
+article-image + p{
+    margin-top: 0;
+}
+
+aside{
+    width: 25%;
 
 }
