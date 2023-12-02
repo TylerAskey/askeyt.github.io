@@ -1,10 +1,5 @@
-/* || General Setup */
-
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,900,900i|Roboto+Condensed:400,400i,700|Roboto:400,400i,900|Shadows+Into+Light');
 
 html {
-    margin: 0;
-    padding: 0;
     font-size: 16px;
     background-color: #ffffff;
 }
@@ -14,7 +9,6 @@ body {
     margin:0 auto;
     padding:1rem 2rem;    
     color:#111;
-    font-family: 'Roboto Condensed', sans-serif;
        
 } 
 
@@ -29,7 +23,6 @@ h1 {
     font-size: 5rem;
     font-weight:100;
     color: #333;
-    font-family: Lato, sans-serif;
     text-shadow:2px 2px 3px #333;      
     margin:0;
 }
@@ -42,8 +35,7 @@ h2 {
     
     font-size:2rem;
     margin-top:0;
-    font-weight:100;
-    font-family:'Lato', sans-serif;
+    font-weight:100
     
 }
 
@@ -58,8 +50,6 @@ blockquote {
     border-bottom:.0625rem solid #333;
     margin:2rem 0;
     padding:2rem 4rem;
-    text-align:center;
-    font-style:italic;
 }
 
 nav {
@@ -68,9 +58,8 @@ nav {
       flex-wrap:wrap;
       flex-direction: column;
       width:14rem;
-      border:.0625rem solid #333;
-      background-color:#e32b7ee4;
-      /* changed*/
+      border:.0725rem solid purple;
+      background-color:#d50c0ce4;
       position:left;
 }
 
