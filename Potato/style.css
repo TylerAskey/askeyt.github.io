@@ -7,7 +7,7 @@ html{
 img{
     width: 49% ;
     margin:0 auto;
-    border: rgba(1, 12, 27, 0.632) solid;
+    border: rgba(69, 70, 71, 0.632) solid .425rem;
 }
 
 p{
@@ -20,4 +20,15 @@ p{
 h1{
     font-size: 3rem;
     
+}
+
+figcaption{
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+aside{
+    display: flex;
+    border: solid black 0.625rem;
 }
