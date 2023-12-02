@@ -5,8 +5,19 @@ html{
 }
 
 img{
-    width: 50% ;
+    width: 49% ;
     margin:0 auto;
-    background-color: gold;
+    border: rgba(1, 12, 27, 0.632) solid;
 }
 
+p{
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1{
+    font-size: 3rem;
+    
+}
