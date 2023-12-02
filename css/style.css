@@ -1,7 +1,7 @@
 
 html {
     font-size: 16px;
-    background: rgb(235, 233, 233);
+    background: rgb(197, 192, 192);
 }
 
  
@@ -12,19 +12,11 @@ h1 {
     margin:0;
 }
 
-h2 {
-    
-    font-size:2rem;
-    margin-top:0;
-    font-weight:100
-    
-}
-
 
 nav {
       float:left;
       width: 13rem;
-      background-color:#d50c0ce4;
+      background-color:#9c0d0de4;
       position:left;
       border: solid black 0.425rem;
 }
@@ -40,20 +32,18 @@ nav ul {
 }
 
 nav ul a {
-    display: ruby-base-container;
+    display: block;
     font-size: 1.5rem;
     padding:.75rem 1.25rem;
     text-decoration: none;
-    color: rgb(235, 233, 233);
+    color: rgb(255, 250, 250);
+    
 }
 
 main {
     text-align: left;
 }
 
-section {
-    margin-bottom:.5%;
-}
 
 aside {
     display:flex;
@@ -81,16 +71,18 @@ figure img {
 
 figcaption {
     font-size:.95rem;
-    color:#ff0000;
+    color:#f96407;
 }
 
 figcaption a {
-    background-color: rgb(235, 233, 233);
-    font-size:.75rem;
-    color:#415a83;
+    background-color: rgb(197, 192, 192);
+    font-size: 0.75rem;;
+    color:#045cff;
 }
 
-
+.strong{
+    color: #f96407;
+}
 
 
 
