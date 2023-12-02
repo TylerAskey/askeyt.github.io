@@ -147,10 +147,7 @@ aside {
     display:flex;
 }
 
-figure {
-    
-    background-color:#242F40;
-}
+
 
 /* || Media */
 
@@ -169,22 +166,22 @@ figure {
 }
 
 figure img {
-  width: 100%;
-  margin:0;   
+  width: 50%;
+  margin: 30px;;  
 }
 
 figcaption {
     font-size:.75rem;
     padding:.5rem;
     margin:0;
-    background-color:#242F40;
-    color:#B1BED3;
+    background-color: rgb(255, 255, 255);
+    color:#ff0000;
 }
 
 figcaption a {
     
     font-size:.75rem;
-    color:#B1BED3;
+    color:#415a83;
 }
 
 figure video,
@@ -214,7 +211,7 @@ footer {
     clear:both;
     overflow:auto;
     margin:3% 2%;
-    border-top: 1px solid #333;
+    border: #000;
 }
 
 .copyright {
